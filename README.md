@@ -11,11 +11,10 @@ This repo is a collection of my web development practice projects — from small
 
 🎨 Styling Practice — layouts, responsive design, animations
 
-🖥️ Clones — recreations of popular sites like GeeksforGeeks
-
 
 ## 📂 Projects
- - Project 1 --> Clone	A clone of the GeeksforGeeks made by 	HTML, CSS to practice responsive design.
+ - Project 1 --> clone of the GeeksforGeeks made by 	HTML, CSS to practice responsive design.
+ - project 2 --> clone of Google search page made by  Bootstrap to  learn about Bootstrap (grid systams, componants and utility classes).
 
 ## 📌 Disclaimer
 All projects here are made only for practice & learning purposes.

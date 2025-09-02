@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-search</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="m-1">
+    <!-- header part -->
+    <header>
+        <h1 class="bg-green-500 text-4xl capitalize text-center p-4 text-white italic font-bold">job search portal</h1>
+        <nav class="bg-gray-600 p-3">
+            <ul class="flex gap-4 justify-center text-white text-s cursor-pointer">
+                <li class="hover:underline">Home</li>
+                <li class="hover:underline">Jobs</li>
+                <li class="hover:underline">Companies</li>
+                <li class="hover:underline">About Us</li>
+                <li class="hover:underline">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main part  -->
+    <main>
+
+        <!-- 1st part of main -->
+
+
+        <h2 class="capitalize text-center font-semibold text-2xl text-gray-600 m-4">find your dream job</h2>
+        <div class="flex justify-center gap-3 flex-wrap my-6 mx-auto">
+            <label for="keywords"></label>
+            <input type="text" placeholder="keywords" class="outline rounded-md px-1">
+
+            <label for="location"></label>
+            <input type="text" placeholder="Location" class="outline rounded-md px-1">
+
+            <label for="company"></label>
+            <input type="text" placeholder="Company" class="outline rounded-md px-1">
+            <button
+                class="bg-blue-600 py-1 px-7 text-white capitalize hover:bg-blue-800 focus:outline-1 active:bg-violate-700">search</button>
+        </div>
+
+        <!-- 2nd part -->
+
+        <h2 class="capitalize text-center font-semibold text-2xl text-gray-600 m-4">latest job listings</h2>
+        <div class="flex justify-center mx-4 my-9 gap-4 items-center">
+            <div class="w-60 h-50 shadow-lg p-3 hover:shadow-md transform delay-100 -translate-y-1 m-2">
+                <h4 class="my-3 capitalize font-semibold text-xl italic text-gray-700 mx-4">web developer</h4>
+                <p class="text-gray-700 capitalize">company : GFG</p>
+                <p class="text-gray-700 capitalize">location :india</p>
+                <p class="text-gray-700 capitalize">description : good web developer</p>
+                <button class="capitalize bg-green-600 px-5 py-auto mt-2 text-center text-white hover:bg-green-800">apply now</button>
+            </div>
+            <div class="w-60 h-50 shadow-lg p-3 hover:shadow-md transform delay-100 -translate-y-1 m-2">
+                <h4 class="my-3 capitalize font-semibold text-xl italic text-gray-700 mx-4">graphics desinger</h4>
+                <p class="text-gray-600 capitalize">company : geeksforgeeks</p>
+                <p class="text-gray-700 capitalize">location : india</p>
+                <p class="text-gray-700 capitalize">description : good graphics desinger</p>
+                <button class="capitalize bg-green-600 px-5 py-auto mt-2 text-center text-white hover:bg-green-800">apply now</button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer part -->
+
+    <footer class="bg-gray-700 py-5 flex justify-center">
+        <p class="capitalize text-white text-xl">@2025 job search portal</p>
+    </footer>
+</body>
+
+</html>

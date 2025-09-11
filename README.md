@@ -17,6 +17,8 @@ This repo is a collection of my web development practice projects — from small
  - Project 3 --> Making a  Coffee shop website by HTML , CSS , Bootstrap.
  - Project 4 --> A job search portal made by HTML , Tailwind CSS.
  - Project 5 --> An E-commerce website made by HTML5,CSS3 and tailwind css.
-
+ - Project 6 --> A basic counter app where Increment and Decrement buttons are used to increase or decrease the number.
+ - Project 7 --> A To-Do List app where the user can add any task, edit it if required, or delete it.
+   
 ## 📌 Disclaimer
 All projects here are made only for practice & learning purposes.

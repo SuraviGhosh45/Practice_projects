@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        *{
+            text-transform: capitalize;
+        }
+        body{
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+        }
+        h4{
+            font-size: 3rem;
+            font-family: sans-serif;
+            color: green;
+            text-align: center;
+        }
+
+        .btn{
+            display: flex;
+            gap: 20px;
+        }
+        .button{
+            color: rgb(180, 10, 236);
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(1deg,rgb(159, 159, 238),rgb(175, 213, 175));
+            font-size: larger;
+            padding: 10px;
+        }
+        .button:hover{
+           border: 1px solid blue;
+        }
+
+        .main{
+            background-color: rgb(247, 225, 199);
+            padding: 20px;
+            border: 1px solid rgb(75, 74, 74);
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h4></h4>
+        <div class="btn"></div>
+    </div>
+
+    <script>
+        let count=0;
+
+        text=document.querySelector("h4");btn=document.querySelector(".btn");
+
+        decrement = document.createElement("button");
+        increment = document.createElement("button");
+
+        decrement.textContent="Decrease";
+        increment.textContent="Increase";
+
+        decrement.classList.add("button");
+        increment.classList.add("button");
+
+        btn.appendChild(decrement);
+        btn.appendChild(increment);
+        
+
+        decrement.addEventListener("click",function(){
+            count--;
+            if (count<0){
+                text.style.color="red";
+            }
+            text.textContent=count;
+        });
+
+        increment.addEventListener("click",function(){
+            count++;
+
+            if(count>=0){
+                text.style.color="green";
+            }
+
+            text.textContent=count;
+        });
+    </script>
+</body>
+</html>

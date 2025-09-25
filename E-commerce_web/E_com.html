@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce|Home</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="e-commerce.css">
+</head>
+
+<body class="bg-gray-100">
+    <!-- header part -->
+    <header>
+        <h1 class="text-center text-4xl font-bold py-4">
+            E-commerce website
+        </h1>
+        <nav>
+            <ul class="flex justify-center items-center gap-4 mb-2">
+                <li>
+                    FAQ?
+                </li>
+                <li>
+                    Your order
+                </li>
+                <li>
+                    My Cart
+                </li>
+                <li>
+                    Logout
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section part -->
+
+    <section id="slides" class="flex px-4 py-5 gap-2">
+        <div class="shadow delay-150 duration-300 ease-in-out  hover:-translate-y-1">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250724181649377442/ecommerce-cart.webp"
+                alt="pic1">
+        </div>
+        <div class="shadow duration-300 ease-in-out hover:-translate-y-1">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250724124044580202/kids_1.jpg" alt="pic2"
+                class="h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Catagories part -->
+
+    <h2 class="capitalize font-bold mx-5 my-4 text-2xl">Shop by category</h2>
+
+    <section id="category" class="flex px-9 py-8 gap-8 bg-white justify-center items-center mx-full my-6 flex-wrap">
+        <!-- Card 1 -->
+
+        <div class="section relative group delay-150 duration-300 ease-in-out hover:scale-95 cursor-pointer">
+
+            <div class="w-48 h-48 overflow-hidden rounded-lg mx-auto">
+                <img src="https://media.istockphoto.com/id/1311078906/photo/portrait-of-handsome-young-man-wearing-sunglasses-and-white-tshirt-posing-on-city-street.jpg?s=612x612&w=0&k=20&c=VJnG1hCQ5TLLvRFyQpwzQd7kUFqgfmKaJ1g2E7oYmTA="
+                    alt="Men category" loading="lazy" class="w-full h-full object-cover">
+            </div>
+
+            <div
+                class="absolute inset-0 flex flex-col justify-center items-center bg-white bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity rounded-lg">
+                <h3>Men's Wear</h3>
+                <p>Explore our wide range of men's fashion.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="section relative group delay-150 duration-300 ease-in-out hover:scale-95 cursor-pointer">
+            <div class="w-48 h-48 overflow-hidden rounded-lg mx-auto">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250724125020503946/women_5.jpg"
+                    alt="Women category" loading="lazy" class="w-full h-full object-cover">
+            </div>
+            <div
+                class="absolute inset-0 flex flex-col justify-center items-center bg-white bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity rounded-lg">
+                <h3>Women's Wear</h3>
+                <p>Explore our wide range of women's fashion.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="section relative group delay-150 duration-300 ease-in-out hover:scale-95 cursor-pointer">
+            <div class="w-48 h-48 overflow-hidden rounded-lg mx-auto">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250724125020976003/kids_2.jpg"
+                    alt="Kids Category" loading="lazy" class="w-full h-full object-cover">
+            </div>
+            <div
+                class="absolute inset-0 flex flex-col justify-center items-center bg-white bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity rounded-lg">
+                <h3>Kids Wear</h3>
+                <p>Find stylish and comfortable options for your little ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- featured part -->
+    <section class="featured-products">
+        <h2 class="capitalize font-bold mx-5 my-4 text-2xl">Featured Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+            <div class="product-item" id="Product_1">
+                <img loading="lazy"
+                    src="https://media.geeksforgeeks.org/wp-content/uploads/20250724124201503672/women_1.jpg"
+                    alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description: Dress 1</p>
+                <div>
+                    <p class="Discount">Get 15% off</p>
+                    <div class="flex justify-between items-center">
+                        <span class="price">$200</span>
+                        <button class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-commerce Website. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

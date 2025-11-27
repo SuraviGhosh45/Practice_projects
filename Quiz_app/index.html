@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen active" id="start-screen">
+
+            <h1>Quiz App</h1>
+            <p>test your knowledge with these fun questions! </p>
+            <button id="start-btn">start</button>
+
+        </div>
+        <div class="screen" id="quiz-screen">
+
+            <div class="header">
+
+                <h2 id="question-text"></h2>
+                <div class="quiz-info">
+                    <p> 
+                        <span class="current-question"></span>
+                        of 
+                        <span>5</span>
+                    </p>
+                    
+                    <p>score:<span>0</span></p>
+
+                </div>
+            </div>
+
+            <div class="answers-container" id="answers-container">
+                <!-- answer options will be appear here -->
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+
+        </div>
+        <div class="result-screen">
+
+            <h1>your score</h1>
+            <div class="result-info">
+
+                <p>You scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+
+                <div class="result-message">
+                    result-message depend on your message
+                </div>
+
+            </div>
+
+            <button id="restart-btn">Retake quiz</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

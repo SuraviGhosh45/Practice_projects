@@ -12,15 +12,10 @@ This repo is a collection of my web development practice projects — from small
 
 
 ## 📂 Projects
- - Project 1 --> clone of the GeeksforGeeks made by 	HTML, CSS to practice responsive design.
- - Project 2 --> clone of Google search page made by  Bootstrap to  learn about Bootstrap (grid systams, componants and utility classes).
- - Project 3 --> Making a  Coffee shop website by HTML , CSS , Bootstrap.
- - Project 4 --> A job search portal made by HTML , Tailwind CSS.
- - Project 5 --> An E-commerce website made by HTML5,CSS3 and tailwind css.
- - Project 6 --> A basic counter app where Increment and Decrement buttons are used to increase or decrease the number.
- - Project 7 --> A To-Do List app where the user can add any task, edit it if required, or delete it.
- - Project 8 --> A weather App where you can see temparature, humidity , pressure etc. according to countries or city.
- - project 9 --> quize app where you can answer 5 question and see your result at the end.
+ - Project 1 --> A basic counter app where Increment and Decrement buttons are used to increase or decrease the number.
+ - Project 2 --> A To-Do List app where the user can add any task, edit it if required, or delete it.
+ - Project 3 --> A weather App where you can see temparature, humidity , pressure etc. according to countries or city.
+ - Project 4 --> quize app where you can answer 5 question and see your result at the end.
    
 ## 📌 Disclaimer
 All projects here are made only for practice & learning purposes.

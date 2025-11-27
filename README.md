@@ -20,6 +20,7 @@ This repo is a collection of my web development practice projects — from small
  - Project 6 --> A basic counter app where Increment and Decrement buttons are used to increase or decrease the number.
  - Project 7 --> A To-Do List app where the user can add any task, edit it if required, or delete it.
  - Project 8 --> A weather App where you can see temparature, humidity , pressure etc. according to countries or city.
+ - project 9 --> quize app where you can answer 5 question and see your result at the end.
    
 ## 📌 Disclaimer
 All projects here are made only for practice & learning purposes.

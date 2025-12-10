@@ -16,6 +16,7 @@ This repo is a collection of my web development practice projects — from small
  - Project 2 --> A To-Do List app where the user can add any task, edit it if required, or delete it.
  - Project 3 --> A weather App where you can see temparature, humidity , pressure etc. according to countries or city.
  - Project 4 --> quize app where you can answer 5 question and see your result at the end.
+ - Project 5 --> A lightweight and user-friendly Bookmark Manager built using HTML, CSS, and JavaScript.This app lets you quickly save, view, and delete bookmarks, with all data stored in your browser’s localStorage, so your bookmarks stay even after refreshing or closing the tab.
    
 ## 📌 Disclaimer
 All projects here are made only for practice & learning purposes.
